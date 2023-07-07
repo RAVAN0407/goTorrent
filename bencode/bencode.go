@@ -9,6 +9,7 @@ import (
 
 func String(str string) string{
 	res := strconv.Itoa(len(str))+":"+ str
+	fmt.Println("Testing")
 	return res
 
 }
